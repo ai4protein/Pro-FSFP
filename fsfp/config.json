@@ -1,0 +1,24 @@
+{
+    "raw_data_dir": "data/substitutions",
+    "data_path": "data/merged.pkl",
+    "struc_seq_path": "data/struc_sq_72.csv",
+    "model_dir": {
+        "esm1b": "facebook/esm1b_t33_650M_UR50S",
+        "esm1v-1": "facebook/esm1v_t33_650M_UR90S_1",
+        "esm1v-2": "facebook/esm1v_t33_650M_UR90S_2",
+        "esm1v-3": "facebook/esm1v_t33_650M_UR90S_3",
+        "esm1v-4": "facebook/esm1v_t33_650M_UR90S_4",
+        "esm1v-5": "facebook/esm1v_t33_650M_UR90S_5",
+        "esm2": "facebook/esm2_t33_650M_UR50D",
+        "saprot": "westlake-repl/SaProt_650M_PDB"
+    },
+    "lora_modules": [
+        "query",
+        "key",
+        "value",
+        "dense"
+    ],
+    "ckpt_dir": "checkpoints",
+    "retr_dir": "retrieved",
+    "pred_dir": "predictions"
+}
