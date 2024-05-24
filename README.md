@@ -1,4 +1,4 @@
-# Few-Shot Protein Fitness Prediction
+# Pro-FSFP: Few-Shot Protein Fitness Prediction
 Supported PLMs: **ESM-1b, ESM-1v, ESM-2, and SaProt**
 
 ## Requirements
