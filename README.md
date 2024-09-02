@@ -29,7 +29,7 @@ The code has been tested on RTX 3090 GPU.
 The config file `fsfp/config.json` defines the paths of model checkpoints, input and output.
 
 ## Full dataset 
-The full proteingym data that contains 87 datasets can be found at https://drive.google.com/drive/my-drive
+The full proteingym data that contains 87 datasets can be found at https://drive.google.com/file/d/1Sbtlm0JnkSzNVMZiSn6OVw5PEg251LGu/view?usp=sharing
 
 ## Data preprocessing
 The datasets of ProteinGym should be put under `data/substitutions/`. Run `python preprocess.py -s` to preprocess the raw datasets and pack them to `data/merged.pkl`.
