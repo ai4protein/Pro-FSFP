@@ -4,7 +4,6 @@ from torch.nn.functional import pairwise_distance
 from transformers import EsmTokenizer, EsmForMaskedLM
 from tqdm import tqdm
 from . import config
-from .pipeline import model_names
 from .dataset.base import ProteinSequenceData
 from .utils.data import make_dir
 
