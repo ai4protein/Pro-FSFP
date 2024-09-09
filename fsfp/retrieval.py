@@ -42,7 +42,7 @@ class Retriever():
         self.hidden_fn = hidden_fn
     
     def get_base_model(self):
-        model_name = model_names[self.args.model]
+        model_name = config.model_dir[self.args.model]
         model = EsmForMaskedLM.from_pretrained(model_name, output_hidden_states=True)
         tokenizer = EsmTokenizer.from_pretrained(model_name)
         return model, tokenizer
