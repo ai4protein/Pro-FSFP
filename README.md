@@ -1,4 +1,4 @@
-# Venus Pro-FSFP: Few-Shot Protein Fitness Prediction
+# VenusFSFP: Few-Shot Protein Fitness Prediction
 Supported PLMs: **ESM-1b, ESM-1v, ESM-2, and SaProt**
 
 ## Requirements
@@ -41,7 +41,7 @@ The datasets of ProteinGym should be put under `data/substitutions/`. Run `pytho
 ## Training and inference
 Run `main.py` for model training and inference. The default hyper-parameters may not be optimal, so it is recommended to perform hyper-parameter search for each protein via cross-validation.
 Important hyper-parmeters are listed as follows (abbreviations in parentheses):
-- --mode (-m): perform LTR finetuning, meta-learning or transfer learning using the mear-learned model
+- --mode (-m): perform LTR finetuning, meta-learning or transfer learning using the meta-learned model
 - --test (-t): whether to load the trained models from checkpoints and test them
 - --model (-md): name of the PLM to train
 - --protein (-p): name of the target protein (UniProt ID)
